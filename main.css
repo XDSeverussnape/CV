@@ -62,8 +62,6 @@
   left: 31%;
   width: 700px;
   height: 900px;
-  background-image: url(../123.jpg);
-  background-size: cover;
   border: 8px solid #9e9a9a;
   -webkit-box-shadow: 0 0 10000px 50px;
   box-shadow: 0 0 10000px 50px;
@@ -71,17 +69,38 @@
   .hiden2__btn2:hover {
     cursor: -webkit-zoom-out;
     cursor: zoom-out; }
+  .hiden2__btn2 > img {
+    display: block;
+    width: 684px;
+    height: 884px; }
+  .hiden2__btn2 > .hiden2__btn2__foto-data {
+    display: inline;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: rgba(177, 177, 26, 0.815);
+    font-family: "Hepta Slab", serif;
+    font-size: 20px;
+    font-weight: bold; }
 
 .conteiner-top__over {
   display: block;
   position: relative;
   width: 200px;
-  height: 300px;
-  background-image: url(../123.jpg);
-  background-size: cover; }
+  height: 300px; }
   .conteiner-top__over:hover {
     cursor: -webkit-zoom-in;
     cursor: zoom-in; }
+  .conteiner-top__over > img {
+    display: block;
+    width: 200px;
+    height: 270px; }
+  .conteiner-top__over > .conteiner-top__over__foto-data {
+    display: inline;
+    position: relative;
+    float: right;
+    bottom: 16px;
+    color: rgba(177, 177, 26, 0.815); }
 
 .conteiner-top {
   display: -ms-grid;
@@ -205,14 +224,22 @@ hr {
     top: 12px;
     left: 30.5%;
     width: 500px;
-    height: 650px; } }
+    height: 650px; }
+    .hiden2__btn2 > img {
+      display: block;
+      width: 484px;
+      height: 634px; } }
 
 @media screen and (max-width: 1270px) {
   .hiden2__btn2 {
     top: 12px;
     left: 30.5%;
     width: 500px;
-    height: 750px; }
+    height: 650px; }
+    .hiden2__btn2 > img {
+      display: block;
+      width: 484px;
+      height: 634px; }
   .all {
     margin: 0 10% 0 10%; } }
 
@@ -222,6 +249,10 @@ hr {
     left: 25%;
     width: 400px;
     height: 550px; }
+    .hiden2__btn2 > img {
+      display: block;
+      width: 384px;
+      height: 534px; }
   .conteiner-top__hadder {
     padding-left: 30px;
     padding-right: 30px; }
@@ -233,9 +264,13 @@ hr {
 @media screen and (max-width: 620px) {
   .hiden2__btn2 {
     top: 12px;
-    left: 10%;
-    width: 500px;
-    height: 750px; }
+    left: 18%;
+    width: 400px;
+    height: 490px; }
+    .hiden2__btn2 > img {
+      display: block;
+      width: 384px;
+      height: 474px; }
   .all {
     margin: 0; } }
 
@@ -244,7 +279,11 @@ hr {
     top: 12px;
     left: 36%;
     width: 300px;
-    height: 450px; }
+    height: 390px; }
+    .hiden2__btn2 > img {
+      display: block;
+      width: 284px;
+      height: 374px; }
   .all {
     margin: 0; }
   .conteiner-top__hadder {
